@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Title */
+
+#title{
+  padding: 3% 15% 7%;
+  background-color: #FE3C72;
+  color: #fff;
+}
+
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+
+.title-image {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.col-features {
+  padding: 5%;
+}
+
+.features-div {
+  text-align: center;
+}
+.features-h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.features-fa{
+    font-size: 4.5rem;
+    color: #FF655B;
+    margin-bottom: 1rem;
+}
+.features-fa:hover {
+    color: #FE3C72;
+}
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #FE3C72;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  text-align: center;
+  background-color: #FE3C72;
+  padding-bottom: 3%;
+}
+
+/* Pricing */
+
+#pricing {
+  text-align: center;
+  padding: 7% 11%;
+  background-color: #fff;
+}
+
+.pricing-p {
+  color: #8f8f8f;
+  padding-bottom: 2%;
+}
+/* CTA section */
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FE3C72;
+  color: #fff;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.fa-footer {
+  padding: 1% 1%;
+}
+
+.footer-p {
+  color: #8f8f8f;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
