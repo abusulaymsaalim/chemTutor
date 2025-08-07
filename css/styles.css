@@ -106,7 +106,7 @@ h4 {
 /* Testimonials */
 #testimonials {
   text-align: center;
-  background-color: #FE3C72;
+  background-color: #462593;
   color: #fff;
 }
 
@@ -126,7 +126,7 @@ h4 {
 
 #press {
   text-align: center;
-  background-color: #FE3C72;
+  background-color: #462593;
   padding-bottom: 3%;
 }
 
@@ -147,7 +147,7 @@ h4 {
 #cta {
   padding: 7% 15%;
   text-align: center;
-  background-color: #FE3C72;
+  background-color: #462593;
   color: #fff;
 }
 
@@ -176,4 +176,5 @@ h4 {
     position: static;
   }
 }
+
 
